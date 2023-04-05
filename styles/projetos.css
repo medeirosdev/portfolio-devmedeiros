@@ -1,0 +1,124 @@
+html{
+    font-size: 67,5%;
+}
+
+
+#list-projetos{
+    border:1px solid white;
+    border-radius: 20px;
+    margin:20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
+    /* grid-template-rows: repeat(auto-fit, minmax(30%, 1fr)); */
+    grid-gap: 10px;
+    max-height: calc(3 * (30% + 10px));
+}
+
+.symbols{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    text-align: center;
+    align-items: center;
+    margin:30px;
+}
+
+#title-card{
+    font-size: 2rem;
+    margin: 10px;
+}
+
+.card {
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #f1f1f1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+
+/* Estilo para o título */
+.card h2 {
+    font-size: 1.8em;
+    margin: 0 0 10px;
+    color: #333;
+}
+
+/* Estilo para a descrição */
+.card p {
+    font-size: 1em;
+    margin: 0;
+    color: #666;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+/* Estilo para a div dos símbolos */
+.card .symbols {
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+}
+
+/* Estilo para o hover */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(auto-fit, minmax(30%, 1fr));
+      max-height: none;
+    }
+  }
+
+
+.button2{
+    border: #827d79 2px solid;
+    border-radius: 20px;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    transition: 1s;
+    color:#a9a9a9;
+    background-color: #252627;
+
+    }
+.button2:hover{
+    color:#252627;
+    border: #252627 3px solid;
+    background-color: #a9a9a9;
+}
+
+.TechLogo{
+    width: 70px;
+}
+
+@media (max-width: 1201px){
+.TechLogo{
+        width: 55px;
+    }
+
+
+
+
+}
+
+
+@media (max-width: 1059px){
+    .TechLogo{
+            width: 45px;
+        }
+
+
+    .button2{
+        font-size: 0.7rem;
+    }
+
+
+    }
+
