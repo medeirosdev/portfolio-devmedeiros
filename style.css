@@ -14,7 +14,7 @@ html{
 
 body {
 	/* background-color:#252627 ; */
-    background-image: url("./images/banner1.png");
+    background-image: url("./banner1.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
